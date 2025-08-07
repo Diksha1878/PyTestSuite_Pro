@@ -2,7 +2,7 @@
 
 ## 🚀 Advanced Hybrid Test Automation Framework
 
-PyTestSuite Pro is a comprehensive, enterprise-grade test automation framework that combines data-driven, keyword-driven, and modular testing approaches. Built on top of pytest and Selenium WebDriver, it provides a scalable solution for UI, API, and integration testing with advanced features like parallel execution, smart test categorization, and multi-level assertion strategies.
+PyTestSuite Pro is a comprehensive, enterprise-grade test automation framework that combines data-driven, keyword-driven, and modular testing approaches. Built on top of pytest and Selenium WebDriver, it provides a scalable solution for UI, API, and integration testing with advanced features like smart test categorization, and multi-level assertion strategies.
 
 ## 📋 Table of Contents
 
