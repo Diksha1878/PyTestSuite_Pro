@@ -41,10 +41,10 @@ PyTestSuite Pro is a comprehensive, enterprise-grade test automation framework t
 - **DataActions**: Test data management with Faker integration
 - **AssertionKeywords**: Custom assertion combinations and validations
 
-### ⚡ **Parallel Execution**
+<!-- ### ⚡ **Parallel Execution**
 - **Multi-Level Parallelization**: Test-level and browser-level parallel execution
 - **Worker-Specific Data Distribution**: Isolated test data for each parallel worker
-- **Smart Resource Management**: Automatic driver cleanup and connection pooling
+- **Smart Resource Management**: Automatic driver cleanup and connection pooling -->
 
 ### 🌐 **Cross-Browser Support**
 - **Browser Compatibility**: Chrome, Firefox, Edge with automatic driver management
