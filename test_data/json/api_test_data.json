@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "username": "johndoe",
+      "password": "SecurePassword123!",
+      "role": "user",
+      "department": "Engineering",
+      "active": true
+    },
+    {
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "username": "janesmith",
+      "password": "SecurePassword456!",
+      "role": "manager",
+      "department": "Marketing",
+      "active": true
+    },
+    {
+      "name": "Mike Johnson",
+      "email": "mike.johnson@example.com",
+      "username": "mikejohnson",
+      "password": "SecurePassword789!",
+      "role": "admin",
+      "department": "IT",
+      "active": true
+    }
+  ],
+  "products": [
+    {
+      "name": "Premium Widget",
+      "description": "High-quality widget for professional use",
+      "price": 299.99,
+      "category": "widgets",
+      "sku": "WIDGET-PREM-001",
+      "in_stock": true,
+      "quantity": 50
+    },
+    {
+      "name": "Basic Gadget",
+      "description": "Simple gadget for everyday tasks",
+      "price": 49.99,
+      "category": "gadgets",
+      "sku": "GADGET-BASIC-001",
+      "in_stock": true,
+      "quantity": 100
+    }
+  ],
+  "test_endpoints": {
+    "users": "/api/v1/users",
+    "products": "/api/v1/products",
+    "orders": "/api/v1/orders",
+    "auth": "/api/v1/auth"
+  },
+  "api_configurations": {
+    "timeout": 30,
+    "retry_count": 3,
+    "rate_limit": {
+      "requests_per_minute": 60,
+      "burst_limit": 10
+    }
+  }
+}

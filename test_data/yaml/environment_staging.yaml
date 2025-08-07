@@ -1,0 +1,45 @@
+# Staging Environment Test Data
+
+database:
+  host: "staging-db.example.com"
+  port: 5432
+  name: "testdb_staging"
+  username: "staging_user"
+  password: "staging_password"
+
+api_endpoints:
+  base_url: "https://staging-api.example.com/v1"
+  auth_endpoint: "/auth/login"
+  users_endpoint: "/users"
+  products_endpoint: "/products"
+
+test_users:
+  default_admin:
+    username: "staging_admin"
+    password: "StagingAdminPassword123!"
+    email: "staging.admin@example.com"
+    
+  default_user:
+    username: "staging_user"
+    password: "StagingUserPassword123!"
+    email: "staging.user@example.com"
+
+ui_elements:
+  login_form_id: "login-form"
+  username_field: "username"
+  password_field: "password"
+  
+feature_flags:
+  new_dashboard: true
+  beta_features: false
+  debug_mode: false
+  
+timeouts:
+  page_load: 20
+  element_wait: 10
+  api_request: 10
+
+performance_thresholds:
+  page_load_time: 2.5
+  api_response_time: 0.8
+  login_time: 4.0

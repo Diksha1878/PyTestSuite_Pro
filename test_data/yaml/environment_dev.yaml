@@ -1,0 +1,45 @@
+# Development Environment Test Data
+
+database:
+  host: "dev-db.example.com"
+  port: 5432
+  name: "testdb_dev"
+  username: "dev_user"
+  password: "dev_password"
+
+api_endpoints:
+  base_url: "https://dev-api.example.com/v1"
+  auth_endpoint: "/auth/login"
+  users_endpoint: "/users"
+  products_endpoint: "/products"
+
+test_users:
+  default_admin:
+    username: "dev_admin"
+    password: "DevAdminPassword123!"
+    email: "dev.admin@example.com"
+    
+  default_user:
+    username: "dev_user"
+    password: "DevUserPassword123!"
+    email: "dev.user@example.com"
+
+ui_elements:
+  login_form_id: "dev-login-form"
+  username_field: "dev-username"
+  password_field: "dev-password"
+  
+feature_flags:
+  new_dashboard: true
+  beta_features: true
+  debug_mode: true
+  
+timeouts:
+  page_load: 30
+  element_wait: 10
+  api_request: 15
+
+performance_thresholds:
+  page_load_time: 3.0
+  api_response_time: 1.0
+  login_time: 5.0

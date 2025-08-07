@@ -1,0 +1,197 @@
+# PyTestSuite Pro - Git Ignore File
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTest
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Test Reports and Artifacts
+reports/
+*.html
+*.xml
+allure-results/
+allure-report/
+test-results/
+screenshots/
+page_sources/
+
+# Logs
+*.log
+logs/
+pytest.log
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Selenium
+selenium-debug.log
+geckodriver.log
+chromedriver.log
+edgedriver.log
+
+# WebDriver Downloads
+webdriver/
+drivers/
+
+# Environment Files
+.env
+.env.local
+.env.*.local
+
+# Test Data (sensitive)
+test_data/sensitive/
+**/passwords.json
+**/secrets.json
+**/credentials.json
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Configuration Overrides
+config/local_config.py
+config/secret_config.py
+
+# CI/CD Artifacts
+.jenkins/
+.github/secrets/
+
+# Performance Test Results
+performance_results/
+load_test_results/
+
+# Backup Files
+*.bak
+*.backup
+*.old
+
+# Documentation Build
+docs/_build/
+docs/build/
+
+# Node.js (if using any JS tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Package Files
+*.tar.gz
+*.zip
+*.rar
+
+# Cache
+.cache/
+cache/
+
+# PyCharm
+.idea/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/

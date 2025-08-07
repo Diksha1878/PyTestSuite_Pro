@@ -1,0 +1,62 @@
+{
+  "valid_users": [
+    {
+      "username": "test_user_1",
+      "password": "TestPassword123!",
+      "email": "testuser1@example.com",
+      "first_name": "Test",
+      "last_name": "User One",
+      "role": "user",
+      "active": true
+    },
+    {
+      "username": "admin_user",
+      "password": "AdminPassword456!",
+      "email": "admin@example.com",
+      "first_name": "Admin",
+      "last_name": "User",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "username": "power_user",
+      "password": "PowerPassword789!",
+      "email": "poweruser@example.com",
+      "first_name": "Power",
+      "last_name": "User",
+      "role": "power_user",
+      "active": true
+    }
+  ],
+  "invalid_users": [
+    {
+      "username": "invalid_user",
+      "password": "wrong_password",
+      "email": "invalid@example.com",
+      "expected_error": "Invalid credentials"
+    },
+    {
+      "username": "",
+      "password": "",
+      "email": "",
+      "expected_error": "Username is required"
+    },
+    {
+      "username": "test_user",
+      "password": "",
+      "email": "test@example.com",
+      "expected_error": "Password is required"
+    }
+  ],
+  "test_scenarios": {
+    "password_reset": {
+      "email": "resettest@example.com",
+      "expected_message": "Password reset email sent"
+    },
+    "account_locked": {
+      "username": "locked_user",
+      "password": "any_password",
+      "expected_error": "Account is locked"
+    }
+  }
+}
